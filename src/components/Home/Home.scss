@@ -1,0 +1,69 @@
+@import '../../common/styles/variables';
+
+.home {
+  &-main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-content-text {
+    color: $primary-font;
+    margin-top: 10px;
+  }
+
+  &-content-heading {
+    color: $primary-font;
+    font-size: 2.75em !important;
+    font-family: Helvetica !important;
+    font-weight: 100 !important;
+  }
+
+  &-main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-content-text {
+    color: $primary-font;
+    margin-top: 10px;
+  }
+
+  &-content-heading {
+    color: $primary-font;
+    font-size: 2.75em !important;
+    font-family: Helvetica !important;
+    font-weight: 100 !important;
+  }
+
+  &-row-container {
+    margin: 40px 0 20px 0;
+    text-align: center;
+  }
+
+  &-button-flex-container {
+    justify-content: space-evenly;
+
+    .MuiCard-root {
+      background-color: $bg-color-primary;
+      position: relative;
+    }
+
+    .MuiCardContent-root {
+      padding: 10px;
+    }
+
+    .MuiCardActions-root {
+      justify-content: space-around;
+      padding: 15px;
+    }
+  }
+
+  &-action-link {
+    text-decoration: none !important;
+    color: $white !important;
+  }
+}

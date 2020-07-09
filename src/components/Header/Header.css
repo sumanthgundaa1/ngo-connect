@@ -1,0 +1,7 @@
+.main-navbar {
+  background-color: #fed766;
+  position: sticky;
+  top: 0;
+  left: 0; }
+  .main-navbar .nav-link {
+    color: #000000 !important; }

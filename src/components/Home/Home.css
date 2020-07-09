@@ -1,0 +1,50 @@
+.home-main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.home-content-text {
+  color: #343d46;
+  margin-top: 10px; }
+
+.home-content-heading {
+  color: #343d46;
+  font-size: 2.75em !important;
+  font-family: Helvetica !important;
+  font-weight: 100 !important; }
+
+.home-main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.home-content-text {
+  color: #343d46;
+  margin-top: 10px; }
+
+.home-content-heading {
+  color: #343d46;
+  font-size: 2.75em !important;
+  font-family: Helvetica !important;
+  font-weight: 100 !important; }
+
+.home-row-container {
+  margin: 40px 0 20px 0;
+  text-align: center; }
+
+.home-button-flex-container {
+  justify-content: space-evenly; }
+  .home-button-flex-container .MuiCard-root {
+    background-color: #f4f4f8;
+    position: relative; }
+  .home-button-flex-container .MuiCardContent-root {
+    padding: 10px; }
+  .home-button-flex-container .MuiCardActions-root {
+    justify-content: space-around;
+    padding: 15px; }
+
+.home-action-link {
+  text-decoration: none !important;
+  color: #ffffff !important; }

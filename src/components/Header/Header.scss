@@ -1,0 +1,12 @@
+@import '../../common/styles/variables';
+
+.main-navbar {
+  background-color: $nav-bg-color-primary;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .nav-link {
+    color: $black !important;
+  }
+}
